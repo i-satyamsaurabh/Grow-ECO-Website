@@ -1,0 +1,123 @@
+<header>
+    <h1>GROW ECO</h1>
+    <nav>
+        <a href="#">Home</a>|
+        <a href="#">About</a>|
+        <a href="#">Contact</a>|
+        <a href="#">Services</a>
+    </nav>
+</header>
+
+<div>
+    <hr>
+
+    <section>
+        <h1>Growing Eco: A Blossoming Journey</h1>
+        <div class="div">
+            <img src="pic1.jpg" alt="plant">
+            <img src="pic1.jpg" alt="plant">
+
+        </div>
+        <p>Welcome to the verdant realm of sustainability, where each seed planted is a promise to our planet's
+            flourishing future. Embark on a journey with us as we unveil the secrets to cultivating an eco-friendly
+            haven filled with nature's resplendent wonders.</p>
+        <hr>
+        <img src="pic2.jpg" alt="Green Thumb" width="500" height="80" />
+        <p>Embrace sustainable practices that transcend mere cultivation...</p>
+        <p>As you embark on this verdant path, remember that growing eco is not just a destination; it's a
+            transformative voyage. Join hands with kindred spirits dedicated to preserving the splendor of our planet.
+            Together, we sow the seeds of a sustainable tomorrow.</p>
+    </section>
+
+    <section>
+        <h1>Embark on a Green Journey with GROW ECO</h1>
+        <p>Discover a world where connectivity meets sustainability...</p>
+        <p>Join GROW ECO this revolutionary journey towards a connected and sustainable future. Let your online presence
+            reverberate through the roots of change, fostering a world where connectivity and eco-consciousness go hand
+            in hand.</p>
+    </section>
+
+    <hr>
+
+    <div class="container">
+        <div class="left">
+            <h3>BILLING ADDRESS</h3>
+            <form>
+                Full name
+                <input type="text" name="" placeholder="Enter name">
+                Full name
+                <input type="text" name="" placeholder="Enter name">
+                Full name
+                <input type="text" name="" placeholder="Enter name">
+                Email
+                <input type="text" name="" placeholder="Enter email">
+                Address
+                <input type="text" name="" placeholder="Enter address">
+                City
+                <input type="text" name="" placeholder="Enter city">
+                <div id="zip">
+                    <label>
+                        State
+                        <select>
+                            <option>Choose State..</option>
+                            <option>Jharkhand</option>
+                            <option>Uttar pradesh</option>
+                            <option>Chennai</option>
+                            <option>Patna</option>
+                            <option>Punjab</option>
+
+                        </select>
+
+                    </label>
+                    <label>
+                        Zip code
+                        <input type="number" name="" placeholder="Zip code">
+                    </label>
+                </div>
+            </form>
+        </div>
+        <div class="right" style="background-color: white; padding: 20px; border: 1px solid white; border-radius: 8px;">
+            <h3 style="color: black;">PAYMENT</h3>
+            <form id="payment-form">
+                <div class="form-group">
+                    <label for="payment-option">Payment Option:</label>
+                    <select id="payment-option">
+                        <option>Choose the method</option>
+                        <option>UPI ID</option>
+                        <option>Debit Card</option>
+                        <option>Credit Card</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="card-number">Card Number:</label>
+                    <input type="text" id="card-number" name="card-number" placeholder="1234 5678 9012 3456" required>
+                </div>
+                <div class="form-group" style="display: flex; justify-content: space-between;">
+                    <div style="flex: 1; margin-right: 10px;">
+                        <label for="expiry-date">Expiry Date:</label>
+                        <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YYYY" required>
+                        <label for="quantity">Quantity:</label>
+                        <input type="number" id="quantity" name="quantity" min="1" max="10" value="1">
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        <label for="email">Your Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <input type="submit" value="Place Order">
+                    </div>
+                </div>
+                <button type="button" onclick="submitPayment()" style="background-color:rgb(73, 197, 73)
+                ; color: white; padding: 10px 15px; border: none; border-radius: 4px; cursor: pointer;">Submit
+                    Payment</button>
+            </form>
+        </div>
+
+    </div>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2024 GROW ECO | Connecting Lives, Nurturing Nature</p>
+    </footer>
+
+</div>
+</body>
